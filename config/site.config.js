@@ -37,8 +37,11 @@ module.exports = {
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
-  footer:
-    '<b>\"And that there is not for man except that [good] for which he strives.\"</b><br> - Surah An-Najm, Ayah 39',
+  footer: [
+    '<b>"And that there is not for man except that [good] for which he strives."</b><br> - Surah An-Najm, Ayah 39',
+    '<b>"Indeed, Allah will not change the condition of a people until they change what is in themselves."</b><br> - Surah Ar-Ra\'d, Ayah 11',
+    '<b>"<i>And whoever strives only strives for [the benefit of] himself.</i> Indeed, Allah is free from need of the worlds."</b><br> - Surah Al-Ankabut, Ayah 6',
+  ],
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.

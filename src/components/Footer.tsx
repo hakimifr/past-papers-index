@@ -2,7 +2,7 @@ import config from '../../config/site.config'
 
 const createFooterMarkup = () => {
   return {
-    __html: config.footer,
+    __html: config.footer[Math.floor(Math.random() * config.footer.length)],
   }
 }
 
